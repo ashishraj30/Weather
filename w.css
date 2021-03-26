@@ -5,7 +5,6 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: #222;
   background-image: url('2.jpg');
   font-size: 120%;
 }
@@ -15,14 +14,14 @@ h1{
 
 .card {
   float: left;
-  background: #141414d0;
+  background: #313131;
   color: white;
   width: 100%;
   padding: 2em;
   border-radius: 30px;
   max-width: 420px;
 margin-left: 150px;
-margin-top: 30px;
+margin-top: 100px;
 }
 
 .search {
@@ -110,7 +109,7 @@ h1{
 
 footer{
   color: white;
-  margin: 530px;
+  margin: 650px;
   background-color: #1a1818  ;
   
 }
@@ -123,8 +122,8 @@ display: flex;
 float: right;
 width: 300px;
 height: 300px;
-margin-right: 130px;
-margin-top: 70px;
+margin-right: 160px;
+margin-top: 150px;
 background: url('1.jpg') 0 0 repeat;
 border-radius: 50%;
 -moz-border-radius: 50%;
@@ -143,7 +142,7 @@ animation: rotate 4s linear infinite;
 -moz-transform-style: preserve-3d;
 transition: transform 200ms linear;
 transform-style: preserve-3d;
-box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+box-shadow: inset 15px 0 60px 6px rgba(0, 0, 0, 1);
 -moz-box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
 -webkit-box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
 color: #000;
